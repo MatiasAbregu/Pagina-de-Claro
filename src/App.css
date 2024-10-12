@@ -1,0 +1,152 @@
+#root {
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav{
+    background-color: #da291c !important;
+    padding-bottom: 15px !important;
+    box-shadow: 1px 0 8px gray;
+}
+
+#adminNav{
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#adminNav:hover{
+    color: rgb(207, 207, 207);
+}
+
+.card {
+    height: fit-content;
+}
+
+#cardTelefono {
+    width: 30%;
+    margin: 0 4%;
+}
+
+#cardDatos {
+    width: 60%;
+}
+
+#cardLogin{
+    width: 50%;
+    margin: 5.5% 25% 0 25%;
+}
+
+#cardLogin button{
+    width: 60%;
+    margin: 2% 0;
+}
+
+.claroBox h3 {
+    text-align: center;
+    width: 100%;
+    color: #da291c;
+    text-decoration: underline;
+}
+
+h3,
+h5 {
+    color: #da291c!important;
+}
+
+.planBox {
+    text-align: center;
+    width: 45%;
+    margin: 0 2.5%;
+}
+
+.planBox select {
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+.claroBox div .card {
+    width: 45%;
+    margin: 0 2.5%;
+}
+
+ul li {
+    margin: 2% 0;
+}
+
+.alert{
+    position: absolute;
+    width: 50%;
+    margin: 0 25%;
+    top: 70px;
+    z-index: 3;
+    padding-bottom: 3px;
+}
+
+.alert p {
+    transition: all 0.2s ease;
+    padding: 0 4px;
+}
+
+.alert p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.welcomeTitle{
+    color: #da291c;
+    margin: 1% 0 0 2%;
+}
+
+.cajasCustomAdmin {
+    margin-top: 2%;
+}
+
+.cajasCustomAdmin .boxPrecios, .cajasCustomAdmin .boxDescuentos{
+    border: 1px solid #808080;
+    border-radius: 10px;
+    width: 45%;
+    margin: 0 2.5%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.cajasCustomAdmin div h3{
+    margin-top: 2%;
+}
+
+.cajasCustomAdmin .boxPrecios div, .cajasCustomAdmin .boxDescuentos div{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.cajasCustomAdmin select{
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.cajasCustomAdmin input{
+    text-align: center;
+}
+
+footer{
+    background-color: #4c4848;
+    padding: 12px 0;
+    color: white;
+    margin-top: auto;
+}
+
+footer img{
+    margin-left: 10px;
+}
+
+footer p{
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
