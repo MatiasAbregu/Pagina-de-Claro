@@ -48,11 +48,11 @@ export const Login = () => {
                     <button className="btn btn-primary" onClick={() => {
                         if (dataUser == "" || dataPass == "") {
                             setAlertComponent("warning");
-                        } else if (dataUser != "adminClaro" && dataPass != "claro123") {
-                            setAlertComponent("danger");
-                        } else {
+                        } else if (dataUser == "adminClaro" && dataPass == "claro123") {
                             sessionStorage.setItem("token", CryptoJS.AES.encrypt(`tokenClaroAuth, ${dataUser}`, "grupo7").toString());
                             setRedirectToMenu(true);
+                        } else {
+                            setAlertComponent("danger");
                         }
                     }}>Iniciar Sesión</button>
                 </div>
