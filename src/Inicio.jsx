@@ -25,6 +25,15 @@ export const Inicio = () => {
                 ["20 GB de Internet", 71200],
                 ["30 GB de Internet", 82100],
             ]));
+
+            setListadoPrecios([
+                ["2 GB de Internet", 21500],
+                ["4 GB de Internet", 27700],
+                ["7 GB de Internet", 36900],
+                ["10 GB de Internet", 54800],
+                ["20 GB de Internet", 71200],
+                ["30 GB de Internet", 82100],
+            ]);
         }
 
         if (localStorage.getItem('listadoDescuentos')) {
@@ -35,6 +44,12 @@ export const Inicio = () => {
                 ["Movistar", 85],
                 ["Tuenti", 85],
             ]));
+
+            setListadoDescuentos([
+                ["Personal", 30],
+                ["Movistar", 85],
+                ["Tuenti", 85],
+            ]);
         }
     }, []);
 
